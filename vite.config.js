@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: '/website/', // 👈 replace with your repo name
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
